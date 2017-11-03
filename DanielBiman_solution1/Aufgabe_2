@@ -3,18 +3,16 @@ Aufgabe 2
 '''
 Explain each of the following Git-commands and terms in 1-2 concise sentences:
 1. git init: Initiiert ein Git repository (=Projektarchiv)
-2. git add: Hinzufügen von Dateien
-3. git commit -m '<your comment>' : Kommentieren einer Änderung am file, bevor es im repository gespeichert wird. 
-#In diesem Moment ist die Datei noch im stage mode.
+2. git add: Hinzufügen von Dateien in die stage Area
+3. git commit -m '<your comment>' : Kommentieren einer Änderung am file, bevor es im repository gespeichert wird. (In diesem Moment ist die Datei noch im stage mode.)
 4. git push: tells Git where to put commits
-5. git pull: shows any new changes on the file
+5. git pull: Aktualisieren des lokalen Speichers
 6. git diff: Shows the difference between old an new Version of the file
 7. git log: Zeigt alle Änderungen der Vergangenheit in Reihenfolge an.
-8. git checkout <filename>: All files were changed back to the last commit.
-#Or to change the direction to a branch.
-9. git branch: =copy of a file
+8. git checkout <filename>: All files were changed back to the last commit (mit -- davor). Mainly used to change the direction to a branch.
+9. git branch: = copy of a file
 10. repository: Projektarchiv. Enthält auch vorherige Versionen
 11. pull request: Eine Möglichkeit Änderungen im repository an andere zu kommunizieren.
 12. merging: die bearbeitete branch in den master-branch einfügen 
-13. master: local branch name by default
+13. master: Hauptdatei. Entweder local oder remote origign
 14. forking: fork = copy of repository. So you can experiment with the code without affecting the original code.
